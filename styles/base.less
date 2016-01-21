@@ -49,7 +49,7 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
 }
 
 atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
-  background-color: #e2eefd;
+  background-color: #ebefef;
 }
 
 .text.html.basic {
@@ -73,15 +73,19 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .constant.character, .constant.other, .keyword.other.phpdoc.php {
-  color: #d33682;
+  color: #f18900;
 }
 
 .variable, .support.class.php {
-  color: #738d00;
+  color: #6d8601;
 }
 
 .keyword, .support.function.construct.php {
   color: #535353;
+}
+
+.keyword.control {
+    color: #446fbd;
 }
 
 .storage {
@@ -89,23 +93,23 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .storage.type, .meta.function-call.php {
-  color: #8757ad;
+  color: #446fbd;
 }
 
 .entity.name.class {
-  color: #738d00;
+  color: #6d8601;
 }
 
 .entity.other.inherited-class {
-  color: #738d00;
+  color: #6d8601;
 }
 
 .entity.name.function {
-  color: #738d00;
+  color: #8757ad;
 }
 
 .variable.parameter, .keyword.operator.class.php {
-  color: #FD971F;
+  color: #8757ad;
 }
 
 .entity.name.tag, .punctuation.definition.tag.begin.html, .punctuation.definition.tag.end.html, .punctuation.definition.tag.begin.xml, .punctuation.definition.tag.end.xml {
@@ -113,7 +117,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .entity.other.attribute-name {
-  color: #738d00;
+  color: #446fbd;
 }
 
 .support.function {
@@ -125,7 +129,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .support.type, .support.class {
-  color: #f18900;
+  color: #8757ad;
 }
 
 .support.other.variable {
@@ -175,11 +179,11 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 .meta.diff.header.to-file {
   color: #ffffff;
-  background-color: #738d00;
+  background-color: #6d8601;
 }
 
 .markup.inserted {
-  color: #738d00;
+  color: #6d8601;
 }
 
 .markup.changed {
